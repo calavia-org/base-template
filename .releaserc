@@ -1,0 +1,32 @@
+{
+    "branches": [
+        "main",
+        {
+            "name": "(fix/**)",
+            "prerelease": "fix"
+        },
+        {
+            "name": "(feature/**)",
+            "prerelease": "rc"
+        }
+    ],
+    "plugins": [
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        [
+            "@semantic-release/changelog",
+            {
+                "changelogFile": "CHANGELOG.md",
+                "changelogTitle": "# Semantic Versioning Changelog"
+            }
+        ],
+        [
+            "@semantic-release/git",
+            {
+                "assets": [
+                    "CHANGELOG.md"
+                ]
+            }
+        ]
+    ]
+}

@@ -11,7 +11,8 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"elagil.pre-commit-helper"
+				"elagil.pre-commit-helper",
+				"github.vscode-github-actions"
 			]
 		}
 	}
