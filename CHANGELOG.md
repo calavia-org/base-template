@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [1.0.0-rc.2](https://github.com/calavia-org/base-template/compare/v1.0.0-rc.1...v1.0.0-rc.2) (2025-05-13)
+
+
+### Bug Fixes
+
+* pre-commit event to avoid pr to stae on release ([e1f61a3](https://github.com/calavia-org/base-template/commit/e1f61a394de9baf499e801262bbc2bbc9c764330))
+
 # 1.0.0-rc.1 (2025-05-12)
 
 
