@@ -5,7 +5,13 @@ permissions:
   pull-requests: write
 
 on:
-  pull_request:
+  pull_request_target:
+    types:
+      - opened
+      - reopened
+    branches:
+      - main
+  push:
     branches:
       - main
 
