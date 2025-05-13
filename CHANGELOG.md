@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [1.0.0-fix.2](https://github.com/calavia-org/base-template/compare/v1.0.0-fix.1...v1.0.0-fix.2) (2025-05-13)
+
+
+### Bug Fixes
+
+* pre-commit workflow permission ([b318751](https://github.com/calavia-org/base-template/commit/b318751f72b0b7e8ce97e9e4946c74e75f19d5eb))
+
 # 1.0.0-fix.1 (2025-05-13)
 
 
