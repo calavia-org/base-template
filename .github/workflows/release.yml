@@ -1,12 +1,14 @@
 name: Release
+
 permissions:
-  contents: write
+  contents: read
+  pull-requests: write
+
 on:
-  push:
+  pull_request:
     branches:
       - main
-      - 'feature/**'
-      - 'fix/**'
+
 jobs:
   release:
     name: Release
