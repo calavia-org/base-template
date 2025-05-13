@@ -1,8 +1,13 @@
 name: pre-commit
 
 on:
-  pull_request:
-
+  pull_request_target:
+    types:
+      - opened
+      - synchronize
+      - reopened
+    branches:
+      - main
 jobs:
   pre-commit:
     runs-on: ubuntu-latest
