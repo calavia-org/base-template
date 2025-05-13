@@ -5,9 +5,12 @@ permissions:
   pull-requests: write
 
 on:
-  pull_request:
+  push:
     branches:
       - main
+      - feature/**
+      - fix/**
+
 jobs:
   pre-commit:
     runs-on: ubuntu-latest
