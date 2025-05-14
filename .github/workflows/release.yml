@@ -1,25 +1,18 @@
-name: Pull Request
+name: Main Release
 
 permissions:
   contents: write
-  pull-requests: write
 
 on:
   push:
-    branches:
-      - feature/**
-      - fix/**
+    branches: [main]
 
 jobs:
   ci:
-    name: continuous integration
+    name: semantic release
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v3
-
-      - uses: pre-commit/action@v3.0.1
 
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v4.2.0

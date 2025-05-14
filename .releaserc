@@ -27,6 +27,17 @@
                     "CHANGELOG.md"
                 ]
             }
+        ],
+        [
+            "@semantic-release/github",
+            {
+                "assets": [
+                    {
+                        "path": "CHANGELOG.md",
+                        "label": "TEST automated release"
+                    }
+                ]
+            }
         ]
     ]
 }
