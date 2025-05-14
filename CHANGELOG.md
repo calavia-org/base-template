@@ -1,3 +1,15 @@
+# Semantic Versioning automated Changelog
+
+# [1.0.0-fix.3](https://github.com/calavia-org/base-template/compare/v1.0.0-fix.2...v1.0.0-fix.3) (2025-05-14)
+
+
+### Bug Fixes
+
+* cosmetic change ([15d5894](https://github.com/calavia-org/base-template/commit/15d5894d4f9f5cb0778dc3043f8acff58c66f3a8))
+* group pre-commit and release workflows to avoid missing status check ([53d25f7](https://github.com/calavia-org/base-template/commit/53d25f7d6a9b1c8243e3bb201d0781291d4e98a3))
+* group pre-commit and release workflows to avoid missing status check ([300883c](https://github.com/calavia-org/base-template/commit/300883cde0882e11ab5e4cb2f5ca8baee5d9da34))
+* pull request event ([6e414b0](https://github.com/calavia-org/base-template/commit/6e414b09b29ecc91ee3b1013259605c9c4128454))
+
 # Semantic Versioning Changelog
 
 # [1.0.0-fix.2](https://github.com/calavia-org/base-template/compare/v1.0.0-fix.1...v1.0.0-fix.2) (2025-05-13)
