@@ -17,7 +17,7 @@
             "@semantic-release/changelog",
             {
                 "changelogFile": "CHANGELOG.md",
-                "changelogTitle": "# Semantic Versioning Changelog"
+                "changelogTitle": "# Semantic Versioning automated Changelog"
             }
         ],
         [
@@ -25,6 +25,17 @@
             {
                 "assets": [
                     "CHANGELOG.md"
+                ]
+            }
+        ],
+        [
+            "@semantic-release/github",
+            {
+                "assets": [
+                    {
+                        "path": "CHANGELOG.md",
+                        "label": "TEST automated release"
+                    }
                 ]
             }
         ]

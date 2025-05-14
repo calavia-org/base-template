@@ -1,0 +1,35 @@
+name: Push to pull request
+
+permissions:
+  contents: write
+
+on:
+  push:
+    branches: [feature/**, fix/**]
+
+jobs:
+  check_commit:
+    name: semantic release
+    runs-on: ubuntu-latest
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v3
+
+      - uses: pre-commit/action@v3.0.1
+
+      - uses: 8BitJonny/gh-get-current-pr@3.0.0
+        id: check_pr
+
+      - name: "Unit testing ..."
+        if: steps.check_pr.outputs.pr_found == 'true'
+        run: |
+          echo "HEAD ${{ fromJSON(steps.check_pr.outputs.pr).head.ref }}"
+          echo "BASE ${{ fromJSON(steps.check_pr.outputs.pr).base.ref }}"
+
+      - name: "Generate pre-release for Pull Request #${{ steps.check_pr.outputs.number }}"
+        if: steps.check_pr.outputs.pr_found == 'true'
+        uses: cycjimmy/semantic-release-action@v4.2.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
