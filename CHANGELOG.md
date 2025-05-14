@@ -1,5 +1,35 @@
 # Semantic Versioning automated Changelog
 
+# 1.0.0-fix.1 (2025-05-14)
+
+
+### Bug Fixes
+
+* remove pre-commit workflow on merge ([#3](https://github.com/calavia-org/base-template/issues/3)) ([9324ebc](https://github.com/calavia-org/base-template/commit/9324ebcf95871ef60c2ad4889f2b2a649ade666b))
+* token used for main release ([0f026d1](https://github.com/calavia-org/base-template/commit/0f026d101f562c493e1dfcf35f8bcdbbd2125e26))
+* token used for main release ([1fc8d3e](https://github.com/calavia-org/base-template/commit/1fc8d3e0b6cf8de815182707c4a36b22b7056c3d))
+
+
+### Features
+
+* added pre-commit ([#2](https://github.com/calavia-org/base-template/issues/2)) ([0255335](https://github.com/calavia-org/base-template/commit/02553359aed72f7e60165c00fe7154f8509a5809))
+* added semantic release configuration and workflow ([#4](https://github.com/calavia-org/base-template/issues/4)) ([11d44ab](https://github.com/calavia-org/base-template/commit/11d44abcbfa4537f29dfe354ee6442279cfdce12))
+* release workflow triggers ([#5](https://github.com/calavia-org/base-template/issues/5)) ([1c23d6e](https://github.com/calavia-org/base-template/commit/1c23d6e4ae20ed5b6e6af67f7838bb28985c300e))
+
+# 1.0.0-fix.1 (2025-05-14)
+
+
+### Bug Fixes
+
+* remove pre-commit workflow on merge ([#3](https://github.com/calavia-org/base-template/issues/3)) ([9324ebc](https://github.com/calavia-org/base-template/commit/9324ebcf95871ef60c2ad4889f2b2a649ade666b))
+
+
+### Features
+
+* added pre-commit ([#2](https://github.com/calavia-org/base-template/issues/2)) ([0255335](https://github.com/calavia-org/base-template/commit/02553359aed72f7e60165c00fe7154f8509a5809))
+* added semantic release configuration and workflow ([#4](https://github.com/calavia-org/base-template/issues/4)) ([11d44ab](https://github.com/calavia-org/base-template/commit/11d44abcbfa4537f29dfe354ee6442279cfdce12))
+* release workflow triggers ([#5](https://github.com/calavia-org/base-template/issues/5)) ([1c23d6e](https://github.com/calavia-org/base-template/commit/1c23d6e4ae20ed5b6e6af67f7838bb28985c300e))
+
 # [1.0.0-fix.5](https://github.com/calavia-org/base-template/compare/v1.0.0-fix.4...v1.0.0-fix.5) (2025-05-14)
 
 
