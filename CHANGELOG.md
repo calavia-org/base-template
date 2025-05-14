@@ -1,5 +1,12 @@
 # Semantic Versioning automated Changelog
 
+# [1.0.0-fix.5](https://github.com/calavia-org/base-template/compare/v1.0.0-fix.4...v1.0.0-fix.5) (2025-05-14)
+
+
+### Features
+
+* include github release to semantic versioning ([43c45c0](https://github.com/calavia-org/base-template/commit/43c45c05125c7a4c23c8ce8ac272e7cc9aef4b19))
+
 # [1.0.0-fix.4](https://github.com/calavia-org/base-template/compare/v1.0.0-fix.3...v1.0.0-fix.4) (2025-05-14)
 
 
