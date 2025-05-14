@@ -9,7 +9,7 @@ on:
 
 jobs:
   check_commit:
-    name: semantic release
+    name: Check commit
     runs-on: ubuntu-latest
     steps:
 
