@@ -25,8 +25,8 @@ jobs:
       - name: "Unit testing ..."
         if: steps.check_pr.outputs.pr_found == 'true'
         run: |
-          echo "from ${{ fromJSON(steps.check_pr.outputs.pr).head.ref }}"
-          echo "to ${{ fromJSON(steps.check_pr.outputs.pr).base.ref }}"
+          echo "HEAD ${{ fromJSON(steps.check_pr.outputs.pr).head.ref }}"
+          echo "BASE ${{ fromJSON(steps.check_pr.outputs.pr).base.ref }}"
 
       - name: "Generate pre-release for Pull Request #${{ steps.check_pr.outputs.number }}"
         if: steps.check_pr.outputs.pr_found == 'true'
